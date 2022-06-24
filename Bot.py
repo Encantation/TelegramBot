@@ -7,8 +7,6 @@ from aiogram.types.bot_command import BotCommand
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 
-
-
 # берем токен бота из переменной окружения, если нет - выходим
 bot_token = getenv('BOT_TOKEN')
 if not bot_token:
